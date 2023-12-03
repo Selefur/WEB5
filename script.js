@@ -156,7 +156,7 @@ for (let questionNumber = 1; questionNumber <= 5; questionNumber++)
   ];
 
   //Перевірка
-  if (correctAnswers[questionNumber - 1] === answer) 
+  if (correctAnswers.includes(answer)) 
   {
     totalScore += 5;
   }
