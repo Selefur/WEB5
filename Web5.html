@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ТР-25 Білоус Олександра</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <center>
+    <h1>Тест на тему "Стилі CSS."</h1>
+    <form id="quizForm">
+      <h2>Форма регістрації студента</h2>
+        <legend>Обов'язкове поле*</legend>
+        <p>Ім'я:<br></p>
+        <input type="text" name="firstname" value="Олександра">
+        <br>
+        <p>Прізвище:<br></p>
+        <input type="text" name="lastname" value="Білоус">
+        <p>Група:<br></p>
+        <input type="text" name="group" value="ТР-25">
+    </form>
+    <form>
+      <h2>Запитання</h2>
+      <fieldset>
+      <!-- Початковий рівень -->
+      <!-- Запитання з однією вірною відповіддю (radio) -->
+      <!-- Питання 1 -->
+      <legend>Початковий рівень</legend>
+      <fieldset>
+        <legend>1. Як встановити колір тексту в CSS?</legend>
+        <label><input type="radio" name="q1" value="a"> color: red;</label>
+        <label><input type="radio" name="q1" value="b"> background-color: blue;</label>
+        <label><input type="radio" name="q1" value="c"> font-color: green;</label>
+      </fieldset>
+      <!-- Питання 2 -->
+      <fieldset>
+        <legend>2. Як вирівняти текст по центру в CSS?</legend>
+        <label><input type="radio" name="q2" value="a"> text-align: center;</label>
+        <label><input type="radio" name="q2" value="b"> align-text: middle;</label>
+        <label><input type="radio" name="q2" value="c"> vertical-align: center;</label>
+      </fieldset>
+      <!-- Питання 3 -->
+      <fieldset>
+        <legend>3. Як додати зовнішні відступи до елементу в CSS?</legend>
+        <label><input type="radio" name="q3" value="a"> padding: 10px;</label>
+        <label><input type="radio" name="q3" value="b"> margin: 10px;</label>
+        <label><input type="radio" name="q3" value="c"> space: 10px;</label>
+      </fieldset>
+      <!-- Питання 4 -->
+      <fieldset>
+        <legend>4. Як визначити шрифт тексту в CSS?</legend>
+        <label><input type="radio" name="q4" value="a"> font-family:</label>
+        <label><input type="radio" name="q4" value="b"> text-style:</label>
+        <label><input type="radio" name="q4" value="c"> style-font:</label>
+      </fieldset>
+      <!-- Питання 5 -->
+      <fieldset>
+        <legend>5. Як встановити внутрішні відступи для всіх сторін блоку в CSS?</legend>
+        <label><input type="radio" name="q5" value="a"> padding: 10px;</label>
+        <label><input type="radio" name="q5" value="b"> inner-margin: 10px;</label>
+        <label><input type="radio" name="q5" value="c"> margin: 10px;</label>
+      </fieldset>
+    </fieldset>
+
+      <!-- Запитання з декількома вірними відповідями (checkbox) -->
+      <!-- Питання 6 -->
+      <fieldset>
+        <legend>6.  Які властивості можуть використовуватися для визначення ширини елементу в CSS?(Виберіть всі вірні відповіді)</legend>
+        <label><input type="checkbox" name="q6[]" value="a"> text-align</label>
+        <label><input type="checkbox" name="q6[]" value="b"> vertical-align</label>
+        <label><input type="checkbox" name="q6[]" value="c"> align-text</label>
+      </fieldset>
+      <!-- Питання 7 -->
+      <fieldset>
+        <legend>7. Які властивості використовуються для роботи з коліром в CSS? (Виберіть всі вірні відповіді)</legend>
+        <label><input type="checkbox" name="q7[]" value="a"> color</label>
+        <label><input type="checkbox" name="q7[]" value="b"> background-color</label>
+        <label><input type="checkbox" name="q7[]" value="c"> opacity</label>
+      </fieldset>
+      <!-- Питання 8 -->
+      <fieldset>
+        <legend>8. Як використовувати зовнішні шрифти в CSS? (Виберіть всі вірні відповіді)</legend>
+        <label><input type="checkbox" name="q8[]" value="a"> font-family</label>
+        <label><input type="checkbox" name="q8[]" value="b"> @font-face</label>
+        <label><input type="checkbox" name="q8[]" value="c"> space</label>
+      </fieldset>
+      <!-- Питання 9 -->
+      <fieldset>
+        <legend>9. Як вирівняти блок по центру горизонталі в CSS?</legend>
+        <label><input type="checkbox" name="q9[]" value="a"> text-align: center;</label>
+        <label><input type="checkbox" name="q9[]" value="b"> margin: 0 auto;</label>
+        <label><input type="checkbox" name="q9[]" value="c"> font-color</label>
+      </fieldset>
+      <!-- Питання 10 -->
+      <fieldset>
+        <legend>10. Як використовувати анімацію в CSS? (Виберіть всі вірні відповіді)</legend>
+        <label><input type="checkbox" name="q10[]" value="a"> animation-name</label>
+        <label><input type="checkbox" name="q10[]" value="b"> transition</label>
+        <label><input type="checkbox" name="q10[]" value="c"> padding</label>
+      </fieldset>
+
+      <!-- Середній рівень -->
+      <fieldset>
+      <legend>Середній рівень</legend>
+      <!-- Запитання з вибором відповіді з випадаючого списку -->
+      <!-- Питання 11 -->
+      <fieldset>
+        <legend>11. Як визначити колір тексту в CSS?</legend>
+        <select name="q11">
+          <option value="a">color:</option>
+          <option value="b">text-color:</option>
+          <option value="c">font-color:</option>
+        </select>
+      </fieldset>
+
+<!-- Питання 12 -->
+<fieldset>
+  <legend>12. Яка властивість використовується для встановлення колірів фону в CSS?</legend>
+  <select name="q12">
+    <option value="a">background-color</option>
+    <option value="b">color</option>
+    <option value="c">text-background</option>
+  </select>
+</fieldset>
+<!-- Питання 13 -->
+<fieldset>
+  <legend>13. Як визначити внутрішні відступи для всіх сторін блока в CSS?</legend>
+  <select name="q13">
+    <option value="a">padding</option>
+    <option value="b">margin</option>
+    <option value="c">space</option>
+  </select>
+</fieldset>
+<!-- Питання 14 -->
+<fieldset>
+  <legend>14. Як вирівняти текст по центру горизонталі в CSS?</legend>
+  <select name="q14">
+    <option value="a">text-align: center;</option>
+    <option value="b">margin: 0 auto;</option>
+    <option value="c">padding: 0 auto;</option>
+  </select>
+</fieldset>
+<!-- Питання 15 -->
+<fieldset>
+  <legend>15. Як використовувати зовнішні шрифти в CSS?</legend>
+  <select name="q15">
+    <option value="a">font-family</option>
+    <option value="b">import-font</option>
+    <option value="c">@font-face</option>
+  </select>
+</fieldset>
+
+      <!-- Завдання "Ваш варіант" -->
+      <!-- Питання 16 -->
+      <fieldset>
+       <p>16. Визначення прозорості визачається
+        <select name="q16">
+          <option value="a">opacity</option>
+          <option value="b">transparency</option>
+          <option value="c">transparent</option>
+        </select>
+       </p>
+      </fieldset>
+    <!-- Питання 17 -->
+    <fieldset>
+      <p>17.<select name="q17">
+        <option value="a">padding</option>
+        <option value="b">margin</option>
+        <option value="c">spacing</option>
+      </select> 
+      встановлює відступи всередині блоку.
+      </p>
+     </fieldset>
+    <!-- Питання 18 -->
+    <fieldset>
+      <p>18. Одиниця 
+        <select name="q18">
+        <option value="a">px</option>
+        <option value="b">em</option>
+        <option value="c">pt</option>
+      </select> 
+      використовується для визначення розмірів шрифту в CSS.
+      </p>
+     </fieldset>
+    <!-- Питання 19 -->
+    <fieldset>
+      <p>19. Вирівнювання блоку горизонтально на одному рівні 
+        <select name="q19">
+        <option value="a">display: flex;</option>
+        <option value="b">float: center;</option>
+        <option value="c">align: center;</option>
+      </select> 
+      без використання float в CSS
+      </p>
+     </fieldset>
+    <!-- Питання 20 -->
+    <fieldset>
+      <p>20. Ми використовуємо 
+        <select name="q20">
+          <option value="a">list-style-type</option>
+          <option value="b">list-style</option>
+          <option value="c">list-type</option>
+        </select> 
+        для визначення стилю списку (наприклад, нумерований або маркований).
+      </p>
+     </fieldset>
+
+      <!-- Складний рівень -->
+      <!-- Питання 21: Код на HTML/CSS -->
+      <fieldset>
+        <legend>21. Write HTML/CSS code to change the background color of the page to light blue.</legend>
+        <textarea id="q1" rows="4" cols="50"></textarea>
+      </fieldset>
+      <!-- Питання 22: Код на HTML/CSS -->
+      <fieldset>
+        <legend>22. Add a CSS rule to center the text of the h1 element.</legend>
+        <textarea id="q2" rows="4" cols="50"></textarea>
+      </fieldset>
+      <!-- Питання 23: Код на HTML/CSS -->
+      <fieldset>
+        <legend>23. Apply a box shadow to the container div with a blur radius of 5px and a light gray color.</legend>
+        <textarea id="q3" rows="4" cols="50"></textarea>
+      </fieldset>
+      <!-- Питання 24: Код на HTML/CSS -->
+      <fieldset>
+        <legend>24. Change the font size of the paragraph text to 16px.</legend>
+        <textarea id="q4" rows="4" cols="50"></textarea>
+      </fieldset>
+      <!-- Питання 25: Код на HTML/CSS -->
+      <fieldset>
+        <legend>25. Style the hyperlink to have a red color when hovered over.</legend>
+        <textarea id="q5" rows="4" cols="50"></textarea>
+      </fieldset>
+      <!-- Кнопка для відправлення форми -->
+</form>
+ 
+</center>
+
+  <script src="script.js"></script>
+</body>
+
+<footer>
+  <form>
+    <button onclick="checkQuiz()">Здати тест</button>
+  </form>
+</footer>
+
+</html>
